@@ -43,7 +43,12 @@
           <target>7</target>
         </configuration>
       </plugin>
-
+      
+      <plugin>
+       <groupId>org.codehaus.cargo</groupId>
+       <artifactId>cargo-maven2-plugin</artifactId>
+       <version>1.8.0</version>
+      </plugin>
       <plugin>
        <groupId>org.codehaus.cargo</groupId>
        <artifactId>cargo-maven2-plugin</artifactId>
